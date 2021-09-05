@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <style>
+        * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5px;
+}
+.header {
+  width: 100%;
+  height: 100px;
+  background: grey;
+  color: white;
+}
+.header__div {
+  display: flex;
+  padding: 0px 180px;
+  /* padding: 25px; */
+
+  justify-content: space-between;
+  align-items: center;
+}
+.home button {
+  overflow: hidden;
+  background: none;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 35px;
+  padding: 25px;
+}
+.home button:hover {
+  background: white;
+
+  color: grey;
+}
+button {
+  text-transform: capitalize;
+}
+.banner {
+  height: 88vh;
+  margin-top: 10px;
+  opacity: 0.7;
+}
+.img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.banner_text {
+  padding: 25px;
+  font-size: 40px;
+  color: white;
+
+  position: absolute;
+}
+.section-1 {
+  display: flex;
+  height: 88vh;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 25px;
+  flex-direction: column;
+  margin-top: 10px;
+  position: relative;
+}
+.section-1_text {
+  padding-top: 250px;
+  font-size: 60px;
+}
+.section_container {
+  padding-top: 250px;
+  width: 90%;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+.container-1 {
+  height: 300px;
+  background-color: rgba(255, 174, 0, 0.767);
+  width: 300px;
+  border-radius: 50%;
+}
+.section-2 {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  height: 88vh;
+}
+.section-2_text {
+  font-size: 50px;
+}
+.section-2_sub-1 {
+  width: 60%;
+  background-color: grey;
+  margin: 15px;
+  padding: 15px;
+}
+.con {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.section-2_sub-1 h1 {
+  font-size: 45px;
+  color: white;
+}
+
+.section-2_sub-2 {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+article {
+  margin: 10px;
+  color: white;
+  width: 100%;
+  height: 26vh;
+  background: wheat;
+  display: flex;
+  position: relative;
+}
+}
+article {
+  color: white;
+}
+.sub-1 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.sub-1 h1 {
+  margin-top: 5px;
+  margin-left: 5px;
+  z-index: 1;
+  color: black;
+}
+.sub-2 h1 {
+  margin-top: 5px;
+  margin-left: 5px;
+  z-index: 1;
+  color: black;
+}
+.sub-3 h1 {
+  margin-top: 5px;
+  margin-left: 5px;
+  z-index: 1;
+  color: black;
+}
+.sub-2 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.sub-3 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.sub-1-text {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.sub-1-text {
+  margin-top: 15px;
+}
+.sub-1-text p {
+  color: white;
+  font-size: 25px;
+}
+.section-3 {
+  height: 88vh;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.section_3_h1 {
+  margin-bottom: 10px;
+}
+.card {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  width: 100%;
+  height:750px;
+}
+.content{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.card-1 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 77, 23);
+}
+
+.content_img{
+  margin-left: -65px;
+  margin-top: -15px;
+  height: 300px;
+  width: 100%;
+}
+.content_img img{
+  width: 290px;
+  height: 250px;
+
+}
+.content_text{
+  margin-top: 70px;
+  font-size: 25px;
+  color: white;
+}
+.section-4 {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  background-color: rgba(236, 161, 226, 0.822);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer h1 {
+  color: white;
+}
+.card-1 {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  width: 20%;
+  height: 100%;
+  padding: 0 50px;
+}
+.footer_text{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.card-2 {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+}
+
+    </style>
+</head>
+
+<body>
+        <header class="header">
+            <div class="header__div">
+                <div class="home">
+                    <button>
+                      <span>
+                            Home                         
+                      </span>  
+                    </button>
+                </div>
+                <div class="home">
+                    <button>About us</button>
+                </div>
+                <div class="home">
+                    <button>Team</button>
+                </div>
+                <div class="home">
+                    <button>Technologies</button>
+                </div>
+                <div class="home">
+                    <button>Contact</button>
+                </div>
+            </div>
+        </header>
+        <div class="banner">
+            <div class="img">
+                <div class="banner_text">
+                    <h1>PRACTICAL-8</h1>
+                </div>
+                <img src="./images/bg.jpg" alt="">
+                
+            </div>
+        </div>
+        <section class="section-1">
+            <h1 class="section-1_text">
+                Team-Members
+            </h1>
+            <div class="section_container">
+                <div class="container-1">
+                </div>
+                <div class="container-1">
+                </div>
+                <div class="container-1">
+                </div>
+                <div class="container-1">
+                </div>
+            </div>
+
+        </section>
+        <section class="section-2">
+            <div class="section-2_text">
+                <h1>ABOUT US</h1>
+            </div>
+            <div class="con">
+                <div class="section-2_sub-1">
+                    <h1>Main content</h1>
+                    <div class="sub-1-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt suscipit tenetur sit deleniti dignissimos ipsa qui repellendus eligendi rerum dolores, officiis provident impedit atque, ad consequuntur iure ducimus labore quidem dicta esse quibusdam? Accusantium quae atque quidem porro error odio, dignissimos esse repellendus rem non, aliquam quaerat accusamus harum temporibus, sunt reprehenderit quasi et assumenda repudiandae officia neque? Quos ullam, eaque delectus illum consectetur aperiam voluptate exercitationem nulla illo earum, itaque aliquid tempore nobis? Aliquam aliquid accusamus, provident omnis velit distinctio quam incidunt voluptatum optio porro quibusdam magni doloribus. Illum rerum, quam, sint ipsum veritatis cupiditate dolore eaque deserunt exercitationem placeat quibusdam nihil officiis dolorum eum magni, ut nisi earum dolores aspernatur perferendis mollitia cumque quidem. Voluptatem, deserunt. Nihil reprehenderit dolore, harum consequatur, amet ullam minima nisi incidunt laborum veritatis sit error est. Consequatur ipsum asperiores corporis quis? Corrupti inventore sed cumque alias asperiores nihil nemo nisi veritatis dicta quam, et illo delectus ut beatae dolorem assumenda officia sit nam iure maiores magni, eligendi voluptatem eum saepe. At obcaecati suscipit consectetur quos. Quo cum voluptate error! Autem quasi minus modi mollitia nam eius ullam distinctio est suscipit ducimus iusto quis porro nostrum blanditiis repellendus, eum officiis, sit quos deserunt impedit.</p>
+                    </div>
+                </div>
+                <div class="section-2_sub-2">
+                    <article class="sub-1">
+                        <h1>Project-1</h1>
+                        <img src="./images/img1.jpg" alt=""></article>
+                    <article class="sub-2">
+                        <h1>Project-2</h1>
+                        <img src="./images/img2.jpg" alt="">
+                    </article>
+                    <article class="sub-3"><h1>Project-3</h1>
+
+
+                        <img src="./images/img3.jpg" alt="">
+                    </article>
+                </div>
+            </div>
+
+        </section>
+        <section class="section-3">
+            <h1 class="section_3_h1">
+                TECHNOLOGY USED
+            </h1>
+            <div class="card">
+                <div class="card-1">
+                    <div class="content">
+                        <div class="content_img">
+                            <img src="./images/html (1).jpg" alt="">
+                        </div>
+                        <p class="content_text">
+                        <h1>HTML</h1>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur expedita facilis recusandae maxime nihil sapiente libero animi nulla dicta, aspernatur dolorum tenetur cupiditate consequuntur ipsa, iste, praesentium saepe illo facere.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-1">
+                    <div class="content">
+                        <div class="content_img">
+                            <img src="./images/jquery.jfif" alt="">
+                        </div>
+                        <p class="content_text">
+                        <h1>JQUERY</h1>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur expedita facilis recusandae maxime nihil sapiente libero animi nulla dicta, aspernatur dolorum tenetur cupiditate consequuntur ipsa, iste, praesentium saepe illo facere.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-1">
+                    <div class="content">
+                        <div class="content_img">
+                            <img src="./images/css.jpg" alt="">
+                        </div>
+                        <p class="content_text">
+                        <h1>CSS</h1>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur expedita facilis recusandae maxime nihil sapiente libero animi nulla dicta, aspernatur dolorum tenetur cupiditate consequuntur ipsa, iste, praesentium saepe illo facere.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-1">
+                    <div class="content">
+                        <div class="content_img">
+                            <img src="./images/bootstrap.png" alt="">
+                        </div>
+                        <p class="content_text">
+                        <h1>BOOTSTRAP</h1>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur expedita facilis recusandae maxime nihil sapiente libero animi nulla dicta, aspernatur dolorum tenetur cupiditate consequuntur ipsa, iste, praesentium saepe illo facere.
+                        </p>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+        <section class="section-4">
+            <div class="footer_text">
+                <h1>CONTACT US</h1>
+            </div>
+            <footer class="footer">
+                <h1>WebSite Layout for Practical Assignment-8 &copy;Section-A</h1>
+            </footer>
+        </section>
+</body>
+
+</html>
